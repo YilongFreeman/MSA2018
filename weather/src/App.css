@@ -1,0 +1,28 @@
+.wrapper {
+  background: linear-gradient(to right, #e67e22, #e74c3c);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+  input[type="text"] {
+    background-color: transparent;
+    border: 10px;
+    border-bottom: solid 1px #f16051;
+    width: 40%;
+    padding-bottom: 5px;
+    color: #000000;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  input[type="text"]::placeholder {
+    color: #000000;
+  }
+
+
+
+
+  
