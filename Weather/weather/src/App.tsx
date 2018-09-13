@@ -52,12 +52,12 @@ class App extends React.Component<{}, IApp>{
     const city = e.target.elements.city.value;
     const country = e.target.elements.country.value
 
-    console.log(city);
+ 
 
     const callApi = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city + "," + country + "&appid=" + apiKey);
     const data = await callApi.json();
 
-    console.log(data);
+   
     if (city && country && data.cod !== "404") {
       this.setState({
 
